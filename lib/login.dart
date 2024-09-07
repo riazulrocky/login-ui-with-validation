@@ -45,15 +45,24 @@ class _loginState extends State<login> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(20),
-                    topRight: Radius.circular(20)),
+                    topLeft: Radius.circular(40),
+                    topRight: Radius.circular(40)),
               ),
               child: Padding(
-                padding: const EdgeInsets.only(top: 40),
+                padding: const EdgeInsets.only(top: 40, left: 20, right: 20),
                 child: Form(
                   key: formkey,
                   child: Column(
                     children: [
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 20),
+                        child: Text(
+                          "LOGIN",
+                          style: TextStyle(
+                              fontSize: 25, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+
                       TextFormField(
                         validator: (value) {
                           if (value!.isEmpty) {
@@ -70,6 +79,15 @@ class _loginState extends State<login> {
                       ),
                       SizedBox(height: 20),
                       TextFormField(
+                        validator: (value) {
+                          if (value!.isEmpty) {
+                            return "Password can not be empty!";
+                          }
+                          if (value.length < 6) {
+                            return "Invalid Password";
+                          }
+                          return null;
+                        },
                         controller: passwordController,
                         obscureText: isObscure,
                         decoration: InputDecoration(
