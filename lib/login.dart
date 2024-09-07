@@ -105,9 +105,13 @@ class _loginState extends State<login> {
                               borderRadius: BorderRadius.circular(60)),
                         ),
                       ),
+
                       SizedBox(height: 20),
+
                       Text("Forgot Password?", style: TextStyle(fontSize: 16)),
+
                       Spacer(),
+
                       MaterialButton(
                           minWidth: 300,
                           height: 45,
@@ -122,10 +126,12 @@ class _loginState extends State<login> {
                                       builder: (context) => home()));
                             }
                           },
+
                           child: Text(
                             "Sign in",
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )),
+
                       Padding(
                         padding: const EdgeInsets.only(bottom: 50),
                         child: RichText(
