@@ -140,12 +140,12 @@ class _loginState extends State<login> {
                                 style: TextStyle(
                                     color: Colors.black, fontSize: 16),
                                 children: <TextSpan>[
-                              TextSpan(
-                                text: " Signup",
-                                style:
+                                  TextSpan(
+                                    text: " Signup",
+                                    style:
                                     TextStyle(color: Colors.blue, fontSize: 18),
-                              )
-                            ])),
+                                  )
+                                ])),
                       )
                     ],
                   ),
