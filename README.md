@@ -1,16 +1,38 @@
-# login_ui_with_validation
+# 🔐 Login UI with Validation
 
-A new Flutter project.
+This Flutter project demonstrates a login screen with input validation.  
+It provides a clean and user-friendly interface for user authentication in mobile and web applications.
 
-## Getting Started
+> 📱 Available on Android, iOS, Windows, macOS, Linux, and Web platforms.
 
-This project is a starting point for a Flutter application.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-A few resources to get you started if this is your first Flutter project:
+✨ Features
+| Feature             | Description                                   |
+|---------------------|-----------------------------------------------|
+| 🎨 Modern UI        | Clean and attractive design                   |
+| 🔐 Input Fields     | Username and password fields with validation  |
+| 📱 Responsive Layout| Optimized for various screen sizes            |
+| 🌐 Multi-Platform   | Supports Android, iOS, Web, and Desktop       |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠 Dependencies
+- Flutter SDK (latest stable version)
+- Dart programming language
+- Platform-specific dependencies (e.g., Android SDK for Android, Xcode for iOS)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ Getting Started
+
+### 1. Install Flutter SDK
+
+Follow the official Flutter installation guide for your operating system:  
+https://flutter.dev/docs/get-started/install
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/riazulrocky/login-ui-with-validation.git
+cd login-ui-with-validation
